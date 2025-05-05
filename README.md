@@ -2,18 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Taxi Fare Prediction - README</title>
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-    h1, h2 { color: #2c3e50; }
-    pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #ffffff;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
   </style>
 </head>
 <body>
   <h1>🚖 Taxi Fare Prediction Project</h1>
   
   <h2>📌 Overview</h2>
-  <p>This project builds a machine learning model using <strong>Random Forest Regression</strong> to predict taxi fares based on historical data. It uses datetime, coordinates, and other features to estimate fare amounts.</p>
+  <p>
+    This project builds a machine learning model using
+    <strong>Random Forest Regression</strong> to predict taxi fares based on historical data.
+    It uses datetime, coordinates, and other features to estimate fare amounts.
+  </p>
 
   <h2>📁 Files</h2>
   <ul>
@@ -30,7 +56,7 @@ jupyter</code></pre>
 
   <h2>🚀 How to Run</h2>
   <ol>
-    <li>Install dependencies: <code>pip install -r requirements.txt</code> or manually install listed packages.</li>
+    <li>Install dependencies: <code>pip install -r requirements.txt</code> or install packages individually.</li>
     <li>Launch Jupyter Notebook: <code>jupyter notebook</code></li>
     <li>Open <code>Notebook.ipynb</code> and run all cells.</li>
   </ol>
@@ -47,6 +73,6 @@ jupyter</code></pre>
   <pre><code>Predicted fare amount: [9.28]</code></pre>
 
   <h2>✍️ Author</h2>
-  <p>Chirag Bajaj – AI Enthusiast | B.Tech CSE (AI)</p>
+  <p><strong>Chirag Bajaj</strong> – AI Enthusiast | B.Tech CSE (AI)</p>
 </body>
 </html>
